@@ -1,0 +1,107 @@
+*, :before, :after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url('landing-page-girl.png');
+    background-repeat: no-repeat;
+    background-size: 75vh;
+    font-family: 'Comfortaa', cursive;
+    background-color:rgb(211, 211, 211);
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 8vh 25vh auto 25vh;
+}
+
+header{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    display: flex;
+    justify-content:flex-end;
+    margin: 10px 120px 0 0;
+    padding:10px;
+    
+}
+
+a{
+    text-decoration: none;
+    padding-right:10px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.fa-bars{
+    display: flex;
+    align-items: flex-end;
+    padding-top:5px;
+    margin-right: 5px;
+    color: rgb(160, 0, 209);  
+}
+
+.fa-bars:hover{
+    cursor: pointer;
+    color:rgb(104, 0, 136) ;
+}
+
+.content-area{
+    grid-row-start: 3;
+    grid-column:2 ;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10vw 0 0;
+    padding:20px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+    background-color: rgb(160, 0, 209);
+}
+
+.content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:white;
+    padding: 10px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.pitch{
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color:white;
+}
+
+.signup{
+    width:15vw;
+    height: 5vh;
+    margin: 10px;
+    border:none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: rgb(228, 228, 228);
+
+   
+}
+
+.signup:hover{
+    background-color:rgb(195, 195, 195);
+    cursor:pointer;
+}
