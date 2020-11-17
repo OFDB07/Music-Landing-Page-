@@ -60,7 +60,7 @@ a:hover{
     padding:20px;
     box-shadow: 2px 2px 5px grey;
     border-radius: 5px;
-    background-color: rgb(160, 0, 209);
+    background-color: rgb(160, 0, 209, 0.5);
 }
 
 .content-header{
